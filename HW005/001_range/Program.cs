@@ -1,8 +1,11 @@
 ﻿Console.Write("введи первое число: ");
 int operand1 = int.Parse(Console.ReadLine());
+
 Console.Write("введи второе число (пожалуйста больше первого, а то я пока не знаю как быть в таком случае): ");
 int operand2 = int.Parse(Console.ReadLine());
+
 Console.Write("\n");
+
 if (operand2 > operand1)
 {
     int count = (operand2 - 1) - operand1;
