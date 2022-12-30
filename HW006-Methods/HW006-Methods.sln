@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001-calculator", "001-calcu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002-currency", "002-currency\002-currency.csproj", "{7C2CCE25-00DB-4790-BEFF-425ACFF042B9}"
 EndProject
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003-mix", "003-mix\003-mix.csproj", "{C095393E-5761-4A42-B0B1-065B2C27C155}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003-mix", "003-mix\003-mix.csproj", "{C095393E-5761-4A42-B0B1-065B2C27C155}"
+>>>>>>> a25d7269e0aa1137b5069c724ea1e6901a6d79ab
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
