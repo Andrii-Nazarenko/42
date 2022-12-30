@@ -12,17 +12,17 @@ switch (action)
 {
     case "1":
         {
-            sign(number);
+            Sign(number);
             break;
         }
     case "2":
         {
-            simple(number);
+            Simple(number);
             break;
         }
     case "3":
         {
-            div(number);
+            Div(number);
             break;
         }
     default:
@@ -33,9 +33,7 @@ switch (action)
 }
 
 
-
-
-static void sign(int num)
+static void Sign(int num)
 {
     if (num >= 0)
     {
@@ -46,7 +44,7 @@ static void sign(int num)
         Console.WriteLine("Число отрицательное");
     }
 }
-static void simple(int num)
+static void Simple(int num)
 {
     bool isSimple = true;
     if (num > 0)
@@ -72,7 +70,7 @@ static void simple(int num)
     }
 }
 
-static void div(int num)
+static void Div(int num)
 {
     if (num % 9 == 0 || num % 6 == 0 || num % 5 == 0 || num % 3 == 0 || num % 2 == 0)
     {
